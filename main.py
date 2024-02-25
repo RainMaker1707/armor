@@ -2,7 +2,7 @@ from argparse import ArgumentParser
 from os import listdir
 
 from src.threat.threat import Threat
-from src.mitigation import Mitigation
+from src.mitigation.mitigation import Mitigation
 
 
 if __name__ == "__main__":
@@ -24,6 +24,11 @@ if __name__ == "__main__":
     for file in json_list:
         threat = Threat()
         threat.from_json(json_path+file)
+        threats.append(threat)
+
+    for file in xml_list:
+        threat = Threat()
+        threat.from_json(xml_path+file)
         threats.append(threat)
 
     for t in threats:
