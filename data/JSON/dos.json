@@ -1,0 +1,12 @@
+{
+
+    "ID": "1",
+    "name": "DoS",
+    "fullname": "Denial of Service",
+    "first_seen": "1996-09-26",
+    "behavior": ["Receiving request that block service(s) of slow them"],
+    "mitigation_ids":[],
+    "type": "network",
+    "vector": ["requests", "UDP", "TCP", "PING", "IP"],
+    "impact": ["block services", "slower network", "block requests"]
+}
