@@ -34,3 +34,4 @@ threat.from_json("JSON/file/path")
 threat.from_xml("XML/file/path")
 ```
 
+**JSON files format** can be found in `data/JSON/templatet.json`
