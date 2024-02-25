@@ -40,7 +40,9 @@ class Threat():
         self.__first_seen_date = raw_data["first_seen"]
         self.__behavior = raw_data["behavior"]
         self.__mitigation_ids = raw_data["mitigation_ids"]
+        # TODO: Type must be type object
         self.__type = raw_data["type"]
+        # TODO: Vector must be vector object
         self.__vector = raw_data["vector"]
         self.__impact = raw_data["impact"]
         self.__add_date = str(datetime.today()).split(" ")[0]
