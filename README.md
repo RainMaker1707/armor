@@ -69,4 +69,4 @@ Explain the behavior of your threat to the chatbot.\
 You do not need to startt by "Hello" or something polish as it is a AI that don't care about social interaction.\
 The ChatBot will reply with a list of suspected CyberThreatand appropriate mitigation techniques.
 The ChatBot Need GPT4 to be used. 
-[https://chat.openai.com/g/g-hMkR7B3Rx-cyberthreat-assistant]{GPT4 ChatBot URL}
+[GPT4 ChatBot URL](https://chat.openai.com/g/g-hMkR7B3Rx-cyberthreat-assistant)
