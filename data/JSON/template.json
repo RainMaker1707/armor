@@ -2,10 +2,13 @@
     "ID": "hashID md5?",
     "name": "ex",
     "fullname": "Example",
-    "first_seen": "2024-2_20",
+    "first_seen": "2024-2-25",
+    "last_modified": "2024-2-26",
     "behavior": ["behavior 1", "behavior 2", "behavior 3", "..."],
     "mitigation_ids":[1, 2, 32, 41, "..."],
     "type": "one of these: network, software, hardware, privilege escalation, malware, ...",
     "vector": ["mail", "site", "usb device", "scam", "security breach", "..."],
-    "impact": ["block services", "privilege escalation", "crash software", "..."]
+    "impact": ["block services", "privilege escalation", "crash software", "..."],
+    "documentation": "url",
+    "CVE": "CVE-YYYY-NNNN"
 }
