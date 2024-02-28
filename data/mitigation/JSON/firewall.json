@@ -1,0 +1,16 @@
+{
+    "ID": 1,
+    "name": "FWR",
+    "fullname": "Firewall rule",
+    "add_date": "2024-02-27",
+    "last_modification": "2024-02-27",
+    "related_threat": [
+        1
+    ],
+    "type": [
+
+    ],
+    "object": {
+
+    }
+}

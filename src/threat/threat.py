@@ -67,6 +67,9 @@ class Threat():
         self.__CVE = dic.get("CVE")
 
 
+    def get_id(self):
+        return self.__ID
+
     def get_add_date(self):
         return self.__add_date
 
@@ -77,6 +80,7 @@ class Threat():
 
     def get_behavior(self):
         return self.__behavior
+
 
     def get_name(self):
         return self.__name
